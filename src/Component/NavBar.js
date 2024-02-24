@@ -8,7 +8,7 @@ export default function NavBar() {
           <div className="logo">
           </div>
           
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/Movie-Website/">Home</NavLink>
           <NavLink to="about/:id" end activeClassName="active-about">About</NavLink>
           <NavLink to="categories">Categories</NavLink>
           <NavLink to="favorite">Favorite</NavLink>
