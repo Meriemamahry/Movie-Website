@@ -15,7 +15,7 @@ import About from './Component/About';
 import Categories from './Component/Categories';
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<NavBar />}>
+    <Route path="/Movie-Website/" element={<NavBar />}>
       <Route index element={<Test />} />
       <Route path="about/:id" element={<About />} />
       <Route path="categories" element={<Categories/>}/>
