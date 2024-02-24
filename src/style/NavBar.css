@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+  }
+.navBar{
+ background-color: black;
+  z-index: 1000; 
+   
+}
+header nav
+{
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto 0 10px;
+
+}
+.logo{
+    background-image: url('../../public/images/logo.png');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+  top  : 5px
+}
+
+header nav .logo
+{
+  margin-right: auto;
+}
+header nav a {
+margin-top: 20px;
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+  
+}
+/*
+header nav a.active
+{
+  background: white;
+  color:black
+}*/
+header nav .active-about{
+  background-color: white;
+  color: black;
+}
